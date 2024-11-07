@@ -6,13 +6,11 @@ import Image from './Image';
 
 const Product = ({ data }) => {
   return (
-    <div class="card">
-      <Image data={data} />
-      <div class="card-body">
-        <Name data={data} />
-        <Description data={data} />
-        <Price data={data} />
-      </div>
+    <div className="card">
+      <Image url={data.url} />
+      <Name name={data.name} />
+      <Description description={data.description} />
+      <Price price={data.price} />
     </div>
   );
 };

@@ -1,9 +1,5 @@
-import React from 'react'
+const Name = ({ name }) => {
+  return <h2>{name}</h2>;
+};
 
-const Name = ({data}) => {
-  return (
-    <div>{data.name}</div>
-  )
-}
-
-export default Name
+export default Name;

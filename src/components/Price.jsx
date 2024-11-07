@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Price = ({data}) => {
-  return (
-    <div>{data.price}</div>
-  )
-}
+const Price = ({ price }) => {
+  return <h2>{price}</h2>;
+};
 
-export default Price
+export default Price;
