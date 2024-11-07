@@ -4,6 +4,12 @@ body {
   font-family: 'Caveat', cursive;
 }
 
+.products {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
 .card {
     max-width: 600px;

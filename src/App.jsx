@@ -3,8 +3,10 @@ import Product from './components/Product';
 
 const App = () => {
   return (
-    <div>
-      <Product data={products[0]} />
+    <div className='products'>
+      {
+        products.map(product => <Product data={product} />)
+      }
     </div>
   );
 };
